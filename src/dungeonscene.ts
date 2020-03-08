@@ -72,8 +72,8 @@ export class DungeonScene extends Phaser.Scene {
     preload() {
         this.load.image('floor', 'assets/sprites/Objects/Floor.png')
         this.load.image('wall', 'assets/sprites/Objects/Wall.png')
-        this.load.image('door0', 'assets/sprites/Objects/door0.png')
-        this.load.image('door1', 'assets/sprites/Objects/door1.png')
+        this.load.image('door0', 'assets/sprites/Objects/Door0.png')
+        this.load.image('door1', 'assets/sprites/Objects/Door1.png')
         this.load.spritesheet('mage', 'assets/sprites/Commissions/Mage.png', { frameWidth: 16, frameHeight: 16 })
         this.load.spritesheet('warrior', 'assets/sprites/Commissions/Warrior.png', { frameWidth: 16, frameHeight: 16 })
         this.load.spritesheet('long-wep', 'assets/sprites/Items/LongWep.png', { frameWidth: 16, frameHeight: 16 })
