@@ -7,7 +7,7 @@
         "dev": "rollup --config rollup.config.dev.js",
         "build": "rollup --config rollup.config.dist.js",
         "watch": "rollup --watch --config rollup.config.dev.js",
-        "wbuild": "webpack --mode=development",
+        "wbuild": "webpack --mode=production",
         "build_wait": "webpack -w --mode=development",
         "start": "webpack-dev-server --open"
     },
